@@ -1,2 +1,2 @@
-# wetherApp
-API based weather app 
+# NewsApp
+API based News app 
