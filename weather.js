@@ -413,79 +413,11 @@ sports.addEventListener('click', handleNewsButtonClick_sports);
 
 
 
-//working with searchbox and API
-
-
-//mine work but didnt work
-
-// function handleNewsButtonClick_final_user_input() {
-
-// var api ='https://gnews.io/api/v4/search?q=';
-// var search_term =document.getElementById('searchbar').value;
-// var api_key= '&apikey=37203ef08c059c988eac11eb972db227';
-
-// const final_user_input = api + (search_term) + api_key;
-
-//     fetch(final_user_input)
-//     .then(response => response.json())
-//     .then(data => {
-
-//       //1st news 
-
-//      title1_const.textContent = data.articles[0].title;
-//      description_const.textContent=data.articles[0].description;
-//      content_const.textContent=data.articles[0].content;
-//     //  url1_const.textContent=data.articles[0].url;
-//     //  image1_const.textContent=data.articles[0].image;
-//      publishedAt1_const.textContent=data.articles[0].publishedAt;
-
-//      //2nd news
-
-//      title2_const.textContent = data.articles[1].title;
-//      description2_const.textContent=data.articles[1].description;
-//      content2_const.textContent=data.articles[1].content;
-//     //  url2_const.textContent=data.articles[1].url;
-//     //  image2_const.textContent=data.articles[1].image;
-//      publishedAt2_const.textContent=data.articles[1].publishedAt;
-
-//       //3rd news
-
-//       title3_const.textContent = data.articles[2].title;
-//       description3_const.textContent = data.articles[2].description;
-//       content3_const.textContent = data.articles[2].content;
-//       // url3_const.textContent=data.articles[2].url;
-//       // image3_const.textContent=data.articles[2].image;
-//       publishedAt3_const.textContent = data.articles[2].publishedAt;
-
-//       //4th news 
-
-//       title4_const.textContent = data.articles[3].title;
-//       description4_const.textContent = data.articles[3].description;
-//       content4_const.textContent = data.articles[3].content;
-//       // url4_const.textContent=data.articles[3].url;
-//       // image4_const.textContent=data.articles[3].image;
-//       publishedAt4_const.textContent = data.articles[3].publishedAt;
-
-//       // 5th news 
-
-//       title5_const.textContent = data.articles[4].title;
-//       description5_const.textContent = data.articles[4].description;
-//       content5_const.textContent = data.articles[4].content;
-//       // url5_const.textContent=data.articles[4].url;
-//       // image5_const.textContent=data.articles[4].image;
-//       publishedAt5_const.textContent = data.articles[4].publishedAt;
-
-//     })
-//     .catch(error => {
-//       // Handle any errors that occurred during the request
-//       console.error('Error:', error);
-//     });
-// }
-// clickme.addEventListener('click', handleNewsButtonClick_final_user_input);
+// working with searchbox
 
 
 
-// chatgpt 
+ 
 
 function handleNewsButtonClick_final_user_input() {
   var api = 'https://gnews.io/api/v4/search?q=';
