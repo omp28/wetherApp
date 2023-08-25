@@ -50,7 +50,7 @@ const publishedAt5_const = document.getElementById('publishedAt5');
 // for shwing content on reload 
 
 function handleNewsButtonClick_reload() {
-  fetch('https://gnews.io/api/v4/search?q=india+today&apikey=37203ef08c059c988eac11eb972db227')
+  fetch('https://gnews.io/api/v4/search?q=india+today&apikey=API')
     .then(response => response.json())
     .then(data => {
 
@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', handleNewsButtonClick_reload);
 
 
 function handleNewsButtonClick_weather() {
-  fetch('https://gnews.io/api/v4/search?q=weather+forecast+india&apikey=37203ef08c059c988eac11eb972db227')
+  fetch('https://gnews.io/api/v4/search?q=weather+forecast+india&apikey=API')
     .then(response => response.json())
     .then(data => {
 
@@ -172,7 +172,7 @@ weather.addEventListener('click', handleNewsButtonClick_weather);
 // for stock market button
 
 function handleNewsButtonClick_stock() {
-  fetch('https://gnews.io/api/v4/search?q=stock+market&apikey=37203ef08c059c988eac11eb972db227')
+  fetch('https://gnews.io/api/v4/search?q=stock+market&apikey=API')
     .then(response => response.json())
     .then(data => {
 
@@ -233,7 +233,7 @@ stock.addEventListener('click', handleNewsButtonClick_stock);
 // for tech button 
 
 function handleNewsButtonClick_tech() {
-  fetch('https://gnews.io/api/v4/search?q=technical+launch&apikey=37203ef08c059c988eac11eb972db227')
+  fetch('https://gnews.io/api/v4/search?q=technical+launch&apikey=API')
     .then(response => response.json())
     .then(data => {
 
@@ -293,7 +293,7 @@ tech.addEventListener('click', handleNewsButtonClick_tech);
 // for global button 
 
 function handleNewsButtonClick_global() {
-  fetch('https://gnews.io/api/v4/search?q=global+economy&apikey=37203ef08c059c988eac11eb972db227')
+  fetch('https://gnews.io/api/v4/search?q=global+economy&apikey=API')
     .then(response => response.json())
     .then(data => {
 
@@ -354,7 +354,7 @@ global.addEventListener('click', handleNewsButtonClick_global);
 // for sports button 
 
 function handleNewsButtonClick_sports() {
-  fetch('https://gnews.io/api/v4/search?q=sports&apikey=37203ef08c059c988eac11eb972db227')
+  fetch('https://gnews.io/api/v4/search?q=sports&apikey=API')
     .then(response => response.json())
     .then(data => {
 
@@ -422,7 +422,7 @@ sports.addEventListener('click', handleNewsButtonClick_sports);
 function handleNewsButtonClick_final_user_input() {
   var api = 'https://gnews.io/api/v4/search?q=';
   var search_term = document.getElementById('searchTerm').value;
-  var api_key = '&apikey=37203ef08c059c988eac11eb972db227'; // Replace 'YOUR_API_KEY' with your actual API key
+  var api_key = '&apikey=API'; // 
 
   var final_user_input = api + encodeURIComponent(search_term) + api_key;
 
